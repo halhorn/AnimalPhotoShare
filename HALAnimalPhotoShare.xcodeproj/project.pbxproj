@@ -25,6 +25,8 @@
 		29D8C7FF17BBA4F000A9314A /* HALNormalTimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7FD17BBA4F000A9314A /* HALNormalTimelineViewController.xib */; };
 		29D8C80F17BBA76600A9314A /* HALPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D8C80D17BBA76600A9314A /* HALPostViewController.m */; };
 		29D8C81017BBA76600A9314A /* HALPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C80E17BBA76600A9314A /* HALPostViewController.xib */; };
+		29D8C81517BBAB1D00A9314A /* HALNormalTimelineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D8C81417BBAB1D00A9314A /* HALNormalTimelineTableViewCell.m */; };
+		29D8C81717BBAB5F00A9314A /* HALNormalTimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C81617BBAB5F00A9314A /* HALNormalTimelineTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		29D8C80C17BBA76600A9314A /* HALPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HALPostViewController.h; path = ViewController/HALPostViewController.h; sourceTree = "<group>"; };
 		29D8C80D17BBA76600A9314A /* HALPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HALPostViewController.m; path = ViewController/HALPostViewController.m; sourceTree = "<group>"; };
 		29D8C80E17BBA76600A9314A /* HALPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HALPostViewController.xib; path = ViewController/HALPostViewController.xib; sourceTree = "<group>"; };
+		29D8C81317BBAB1D00A9314A /* HALNormalTimelineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HALNormalTimelineTableViewCell.h; path = ViewController/Component/HALNormalTimelineTableViewCell.h; sourceTree = "<group>"; };
+		29D8C81417BBAB1D00A9314A /* HALNormalTimelineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HALNormalTimelineTableViewCell.m; path = ViewController/Component/HALNormalTimelineTableViewCell.m; sourceTree = "<group>"; };
+		29D8C81617BBAB5F00A9314A /* HALNormalTimelineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HALNormalTimelineTableViewCell.xib; path = ViewController/Component/HALNormalTimelineTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +209,9 @@
 		29D8C81217BBAA8B00A9314A /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				29D8C81317BBAB1D00A9314A /* HALNormalTimelineTableViewCell.h */,
+				29D8C81417BBAB1D00A9314A /* HALNormalTimelineTableViewCell.m */,
+				29D8C81617BBAB5F00A9314A /* HALNormalTimelineTableViewCell.xib */,
 			);
 			name = Component;
 			sourceTree = "<group>";
@@ -286,6 +294,7 @@
 				29D8C7C917BBA3FC00A9314A /* Default-568h@2x.png in Resources */,
 				29D8C7FF17BBA4F000A9314A /* HALNormalTimelineViewController.xib in Resources */,
 				29D8C81017BBA76600A9314A /* HALPostViewController.xib in Resources */,
+				29D8C81717BBAB5F00A9314A /* HALNormalTimelineTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +333,7 @@
 				29D8C7C317BBA3FC00A9314A /* HALAppDelegate.m in Sources */,
 				29D8C7FE17BBA4F000A9314A /* HALNormalTimelineViewController.m in Sources */,
 				29D8C80F17BBA76600A9314A /* HALPostViewController.m in Sources */,
+				29D8C81517BBAB1D00A9314A /* HALNormalTimelineTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
