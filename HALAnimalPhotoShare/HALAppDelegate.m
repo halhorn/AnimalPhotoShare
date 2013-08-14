@@ -18,10 +18,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[HALNormalTimelineViewController alloc] initWithNibName:@"HALNormalTimelineViewController" bundle:nil];
-    UIViewController *viewController2 = [[HALPostViewController alloc] initWithNibName:@"HALPostViewController" bundle:nil];
+    UIViewController *normalTimelineViewController = [[HALNormalTimelineViewController alloc] initWithNibName:@"HALNormalTimelineViewController" bundle:nil];
+    UINavigationController *normalTimelineNavigationController = [[UINavigationController alloc] initWithRootViewController:normalTimelineViewController];
+    UIViewController *postViewController = [[HALPostViewController alloc] initWithNibName:@"HALPostViewController" bundle:nil];
+    UINavigationController *postNavigationController = [[UINavigationController alloc] initWithRootViewController:postViewController];
     self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[normalTimelineNavigationController, postNavigationController];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
