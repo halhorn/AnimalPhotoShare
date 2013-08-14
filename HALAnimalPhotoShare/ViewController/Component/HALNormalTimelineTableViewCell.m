@@ -27,7 +27,8 @@
 
 - (void)setupWithRecordEntity:(HALRecordEntity *)recordEntity
 {
-
+    [self.imageView setImage:[[UIImage alloc] initWithContentsOfFile:[recordEntity.fileURL path]]];
+    self.titleLabel.text = recordEntity.title;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
