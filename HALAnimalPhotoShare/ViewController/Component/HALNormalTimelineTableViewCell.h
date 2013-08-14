@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HALRecordEntity.h"
 
 @interface HALNormalTimelineTableViewCell : UITableViewCell
-
+- (void)setupWithRecordEntity:(HALRecordEntity *)recordEntity;
 @end
