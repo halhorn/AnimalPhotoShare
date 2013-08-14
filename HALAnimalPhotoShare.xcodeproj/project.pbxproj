@@ -169,6 +169,7 @@
 		29D8C80017BBA4F700A9314A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				29D8C81217BBAA8B00A9314A /* Component */,
 				29D8C7FB17BBA4F000A9314A /* HALNormalTimelineViewController.h */,
 				29D8C7FC17BBA4F000A9314A /* HALNormalTimelineViewController.m */,
 				29D8C7FD17BBA4F000A9314A /* HALNormalTimelineViewController.xib */,
@@ -198,6 +199,13 @@
 			children = (
 			);
 			name = Category;
+			sourceTree = "<group>";
+		};
+		29D8C81217BBAA8B00A9314A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
