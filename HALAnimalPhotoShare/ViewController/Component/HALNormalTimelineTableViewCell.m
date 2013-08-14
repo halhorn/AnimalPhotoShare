@@ -8,6 +8,12 @@
 
 #import "HALNormalTimelineTableViewCell.h"
 
+@interface HALNormalTimelineTableViewCell()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
+@end
+
 @implementation HALNormalTimelineTableViewCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
