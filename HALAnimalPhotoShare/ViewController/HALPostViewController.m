@@ -1,33 +1,32 @@
 //
-//  HALFirstViewController.m
+//  HALPostViewController.m
 //  HALAnimalPhotoShare
 //
 //  Created by 信田 春満 on 2013/08/14.
 //  Copyright (c) 2013年 halhorn. All rights reserved.
 //
 
-#import "HALFirstViewController.h"
+#import "HALPostViewController.h"
 
-@interface HALFirstViewController ()
+@interface HALPostViewController ()
 
 @end
 
-@implementation HALFirstViewController
+@implementation HALPostViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
-        self.tabBarItem.image = [UIImage imageNamed:@"first"];
+        // Custom initialization
     }
     return self;
 }
-							
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning

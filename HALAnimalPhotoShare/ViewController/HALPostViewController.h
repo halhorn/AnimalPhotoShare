@@ -1,5 +1,5 @@
 //
-//  HALFirstViewController.h
+//  HALPostViewController.h
 //  HALAnimalPhotoShare
 //
 //  Created by 信田 春満 on 2013/08/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HALFirstViewController : UIViewController
+@interface HALPostViewController : UIViewController
 
 @end

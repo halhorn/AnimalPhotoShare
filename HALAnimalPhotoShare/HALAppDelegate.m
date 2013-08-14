@@ -8,9 +8,9 @@
 
 #import "HALAppDelegate.h"
 
-#import "HALFirstViewController.h"
+#import "HALNormalTimelineViewController.h"
 
-#import "HALSecondViewController.h"
+#import "HALPostViewController.h"
 
 @implementation HALAppDelegate
 
@@ -18,8 +18,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[HALFirstViewController alloc] initWithNibName:@"HALFirstViewController" bundle:nil];
-    UIViewController *viewController2 = [[HALSecondViewController alloc] initWithNibName:@"HALSecondViewController" bundle:nil];
+    UIViewController *viewController1 = [[HALNormalTimelineViewController alloc] initWithNibName:@"HALNormalTimelineViewController" bundle:nil];
+    UIViewController *viewController2 = [[HALPostViewController alloc] initWithNibName:@"HALPostViewController" bundle:nil];
     self.tabBarController = [[UITabBarController alloc] init];
     self.tabBarController.viewControllers = @[viewController1, viewController2];
     self.window.rootViewController = self.tabBarController;

@@ -16,19 +16,15 @@
 		29D8C7C517BBA3FC00A9314A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7C417BBA3FC00A9314A /* Default.png */; };
 		29D8C7C717BBA3FC00A9314A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7C617BBA3FC00A9314A /* Default@2x.png */; };
 		29D8C7C917BBA3FC00A9314A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7C817BBA3FC00A9314A /* Default-568h@2x.png */; };
-		29D8C7CC17BBA3FC00A9314A /* HALFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D8C7CB17BBA3FC00A9314A /* HALFirstViewController.m */; };
-		29D8C7CE17BBA3FD00A9314A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7CD17BBA3FC00A9314A /* first.png */; };
-		29D8C7D017BBA3FD00A9314A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7CF17BBA3FD00A9314A /* first@2x.png */; };
-		29D8C7D317BBA3FD00A9314A /* HALSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D8C7D217BBA3FD00A9314A /* HALSecondViewController.m */; };
-		29D8C7D517BBA3FD00A9314A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7D417BBA3FD00A9314A /* second.png */; };
-		29D8C7D717BBA3FD00A9314A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7D617BBA3FD00A9314A /* second@2x.png */; };
-		29D8C7DA17BBA3FD00A9314A /* HALFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7D817BBA3FD00A9314A /* HALFirstViewController.xib */; };
-		29D8C7DD17BBA3FD00A9314A /* HALSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7DB17BBA3FD00A9314A /* HALSecondViewController.xib */; };
 		29D8C7E517BBA3FD00A9314A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D8C7E417BBA3FD00A9314A /* SenTestingKit.framework */; };
 		29D8C7E617BBA3FD00A9314A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D8C7B217BBA3FC00A9314A /* UIKit.framework */; };
 		29D8C7E717BBA3FD00A9314A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D8C7B417BBA3FC00A9314A /* Foundation.framework */; };
 		29D8C7EF17BBA3FD00A9314A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7ED17BBA3FD00A9314A /* InfoPlist.strings */; };
 		29D8C7F217BBA3FD00A9314A /* HALAnimalPhotoShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D8C7F117BBA3FD00A9314A /* HALAnimalPhotoShareTests.m */; };
+		29D8C7FE17BBA4F000A9314A /* HALNormalTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D8C7FC17BBA4F000A9314A /* HALNormalTimelineViewController.m */; };
+		29D8C7FF17BBA4F000A9314A /* HALNormalTimelineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C7FD17BBA4F000A9314A /* HALNormalTimelineViewController.xib */; };
+		29D8C80F17BBA76600A9314A /* HALPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D8C80D17BBA76600A9314A /* HALPostViewController.m */; };
+		29D8C81017BBA76600A9314A /* HALPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29D8C80E17BBA76600A9314A /* HALPostViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,22 +51,18 @@
 		29D8C7C417BBA3FC00A9314A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		29D8C7C617BBA3FC00A9314A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		29D8C7C817BBA3FC00A9314A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		29D8C7CA17BBA3FC00A9314A /* HALFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALFirstViewController.h; sourceTree = "<group>"; };
-		29D8C7CB17BBA3FC00A9314A /* HALFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALFirstViewController.m; sourceTree = "<group>"; };
-		29D8C7CD17BBA3FC00A9314A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		29D8C7CF17BBA3FD00A9314A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		29D8C7D117BBA3FD00A9314A /* HALSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALSecondViewController.h; sourceTree = "<group>"; };
-		29D8C7D217BBA3FD00A9314A /* HALSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALSecondViewController.m; sourceTree = "<group>"; };
-		29D8C7D417BBA3FD00A9314A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		29D8C7D617BBA3FD00A9314A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		29D8C7D917BBA3FD00A9314A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HALFirstViewController.xib; sourceTree = "<group>"; };
-		29D8C7DC17BBA3FD00A9314A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HALSecondViewController.xib; sourceTree = "<group>"; };
 		29D8C7E317BBA3FD00A9314A /* HALAnimalPhotoShareTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HALAnimalPhotoShareTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D8C7E417BBA3FD00A9314A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		29D8C7EC17BBA3FD00A9314A /* HALAnimalPhotoShareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HALAnimalPhotoShareTests-Info.plist"; sourceTree = "<group>"; };
 		29D8C7EE17BBA3FD00A9314A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29D8C7F017BBA3FD00A9314A /* HALAnimalPhotoShareTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HALAnimalPhotoShareTests.h; sourceTree = "<group>"; };
 		29D8C7F117BBA3FD00A9314A /* HALAnimalPhotoShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HALAnimalPhotoShareTests.m; sourceTree = "<group>"; };
+		29D8C7FB17BBA4F000A9314A /* HALNormalTimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HALNormalTimelineViewController.h; path = ViewController/HALNormalTimelineViewController.h; sourceTree = "<group>"; };
+		29D8C7FC17BBA4F000A9314A /* HALNormalTimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HALNormalTimelineViewController.m; path = ViewController/HALNormalTimelineViewController.m; sourceTree = "<group>"; };
+		29D8C7FD17BBA4F000A9314A /* HALNormalTimelineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HALNormalTimelineViewController.xib; path = ViewController/HALNormalTimelineViewController.xib; sourceTree = "<group>"; };
+		29D8C80C17BBA76600A9314A /* HALPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HALPostViewController.h; path = ViewController/HALPostViewController.h; sourceTree = "<group>"; };
+		29D8C80D17BBA76600A9314A /* HALPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HALPostViewController.m; path = ViewController/HALPostViewController.m; sourceTree = "<group>"; };
+		29D8C80E17BBA76600A9314A /* HALPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HALPostViewController.xib; path = ViewController/HALPostViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,19 +122,13 @@
 		29D8C7B817BBA3FC00A9314A /* HALAnimalPhotoShare */ = {
 			isa = PBXGroup;
 			children = (
+				29D8C80317BBA56B00A9314A /* Category */,
+				29D8C80117BBA50100A9314A /* Entity */,
 				29D8C7C117BBA3FC00A9314A /* HALAppDelegate.h */,
 				29D8C7C217BBA3FC00A9314A /* HALAppDelegate.m */,
-				29D8C7CA17BBA3FC00A9314A /* HALFirstViewController.h */,
-				29D8C7CB17BBA3FC00A9314A /* HALFirstViewController.m */,
-				29D8C7CD17BBA3FC00A9314A /* first.png */,
-				29D8C7CF17BBA3FD00A9314A /* first@2x.png */,
-				29D8C7D117BBA3FD00A9314A /* HALSecondViewController.h */,
-				29D8C7D217BBA3FD00A9314A /* HALSecondViewController.m */,
-				29D8C7D417BBA3FD00A9314A /* second.png */,
-				29D8C7D617BBA3FD00A9314A /* second@2x.png */,
-				29D8C7D817BBA3FD00A9314A /* HALFirstViewController.xib */,
-				29D8C7DB17BBA3FD00A9314A /* HALSecondViewController.xib */,
+				29D8C80217BBA50700A9314A /* Model */,
 				29D8C7B917BBA3FC00A9314A /* Supporting Files */,
+				29D8C80017BBA4F700A9314A /* ViewController */,
 			);
 			path = HALAnimalPhotoShare;
 			sourceTree = "<group>";
@@ -178,6 +164,40 @@
 				29D8C7ED17BBA3FD00A9314A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29D8C80017BBA4F700A9314A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				29D8C7FB17BBA4F000A9314A /* HALNormalTimelineViewController.h */,
+				29D8C7FC17BBA4F000A9314A /* HALNormalTimelineViewController.m */,
+				29D8C7FD17BBA4F000A9314A /* HALNormalTimelineViewController.xib */,
+				29D8C80C17BBA76600A9314A /* HALPostViewController.h */,
+				29D8C80D17BBA76600A9314A /* HALPostViewController.m */,
+				29D8C80E17BBA76600A9314A /* HALPostViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		29D8C80117BBA50100A9314A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		29D8C80217BBA50700A9314A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		29D8C80317BBA56B00A9314A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,12 +276,8 @@
 				29D8C7C517BBA3FC00A9314A /* Default.png in Resources */,
 				29D8C7C717BBA3FC00A9314A /* Default@2x.png in Resources */,
 				29D8C7C917BBA3FC00A9314A /* Default-568h@2x.png in Resources */,
-				29D8C7CE17BBA3FD00A9314A /* first.png in Resources */,
-				29D8C7D017BBA3FD00A9314A /* first@2x.png in Resources */,
-				29D8C7D517BBA3FD00A9314A /* second.png in Resources */,
-				29D8C7D717BBA3FD00A9314A /* second@2x.png in Resources */,
-				29D8C7DA17BBA3FD00A9314A /* HALFirstViewController.xib in Resources */,
-				29D8C7DD17BBA3FD00A9314A /* HALSecondViewController.xib in Resources */,
+				29D8C7FF17BBA4F000A9314A /* HALNormalTimelineViewController.xib in Resources */,
+				29D8C81017BBA76600A9314A /* HALPostViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +314,8 @@
 			files = (
 				29D8C7BF17BBA3FC00A9314A /* main.m in Sources */,
 				29D8C7C317BBA3FC00A9314A /* HALAppDelegate.m in Sources */,
-				29D8C7CC17BBA3FC00A9314A /* HALFirstViewController.m in Sources */,
-				29D8C7D317BBA3FD00A9314A /* HALSecondViewController.m in Sources */,
+				29D8C7FE17BBA4F000A9314A /* HALNormalTimelineViewController.m in Sources */,
+				29D8C80F17BBA76600A9314A /* HALPostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,22 +344,6 @@
 				29D8C7BC17BBA3FC00A9314A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		29D8C7D817BBA3FD00A9314A /* HALFirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29D8C7D917BBA3FD00A9314A /* en */,
-			);
-			name = HALFirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		29D8C7DB17BBA3FD00A9314A /* HALSecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				29D8C7DC17BBA3FD00A9314A /* en */,
-			);
-			name = HALSecondViewController.xib;
 			sourceTree = "<group>";
 		};
 		29D8C7ED17BBA3FD00A9314A /* InfoPlist.strings */ = {
