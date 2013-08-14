@@ -18,7 +18,16 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
+        [self setup];
+    }
+    return self;
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        [self setup];
     }
     return self;
 }
@@ -38,6 +47,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark private method
+- (void)setup
+{
+    self.title = @"タイムライン";
 }
 
 #pragma mark - Table view data source
